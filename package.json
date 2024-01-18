@@ -1,0 +1,48 @@
+{
+  "name": "promsquest",
+  "version": "1.0.0",
+  "description": "Starter template for midata plugins using vue 3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:build": "webpack --config build/webpack.config.dev.js",
+    "prod:build": "webpack --config build/webpack.config.prod.js",
+    "serve": "webpack serve --config build/webpack.config.dev.js",
+    "lint": "eslint --ext .js,.vue src",
+    "lint:fix": "eslint --ext .js,.vue src --fix"
+  },
+  "author": "Alexander Kreutz",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "basic-vue3-components": "~1.0.8",
+    "bootstrap": "^4.6.0",
+    "chart.js": "^4.4.1",
+    "jquery": "^3.6.0",
+    "vue": "^3.1.4",
+    "vue-chartjs": "^5.3.0",
+    "vue-composable": "^1.0.0-beta.23",
+    "vue-midata": "git+https://github.com/MIDATAcooperative/midata-plugin-vue-library.git",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@vue/compiler-sfc": "^3.1.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "eslint-webpack-plugin": "^2.5.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^17.3.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
